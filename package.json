@@ -7,7 +7,8 @@
     "test": "jest --verbose",
     "test:watch": "jest --watch --verbose",
     "test:coverage": "jest --coverage",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,11 @@
   },
   "homepage": "https://github.com/katarzynajk/team-profile-generator#readme",
   "dependencies": {
+    "chalk": "^5.0.1",
+    "email-validator": "^2.0.4",
+    "figlet": "^1.5.2",
     "inquirer": "^8.2.4",
-    "jest": "^28.1.1"
+    "jest": "^28.1.1",
+    "validator": "^13.7.0"
   }
 }
